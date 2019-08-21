@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="INSERT_OR_UPDATE">
+        <data_item_field_name>impact</data_item_field_name>
+        <hidden>false</hidden>
+        <order>30</order>
+        <screen display_value="Details">56f231384fc2b3407022ee6d0210c736</screen>
+        <screen_data_item_table>x_mpaii_aim_issue</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>Eric.Eger@cai.io</sys_created_by>
+        <sys_created_on>2019-06-12 17:29:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f4677d304f06b3407022ee6d0210c781</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>impact</sys_name>
+        <sys_package display_value="AIM Mobile App" source="x_maim2_aim_mobile">d10b70284f8633407022ee6d0210c75b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AIM Mobile App">d10b70284f8633407022ee6d0210c75b</sys_scope>
+        <sys_update_name>sys_sg_screen_field_f4677d304f06b3407022ee6d0210c781</sys_update_name>
+        <sys_updated_by>Eric.Eger@cai.io</sys_updated_by>
+        <sys_updated_on>2019-06-12 17:29:57</sys_updated_on>
+        <type>auto</type>
+    </sys_sg_screen_field>
+</record_update>

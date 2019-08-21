@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description>Related List for Issues found on Programs</description>
+        <group_by/>
+        <name>Issues Related List DI</name>
+        <query_condition table="x_mpaii_aim_issue">work_event={{Work_Event_Parent_IP}}<item endquery="false" field="work_event" goto="false" newquery="false" operator="=" or="false" value="{{Work_Event_Parent_IP}}"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>Eric.Eger@cai.io</sys_created_by>
+        <sys_created_on>2019-06-12 17:08:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ae82f5f44fc2b3407022ee6d0210c780</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Issues Related List DI</sys_name>
+        <sys_package display_value="AIM Mobile App" source="x_maim2_aim_mobile">d10b70284f8633407022ee6d0210c75b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AIM Mobile App">d10b70284f8633407022ee6d0210c75b</sys_scope>
+        <sys_update_name>sys_sg_data_item_ae82f5f44fc2b3407022ee6d0210c780</sys_update_name>
+        <sys_updated_by>Eric.Eger@cai.io</sys_updated_by>
+        <sys_updated_on>2019-06-12 17:09:38</sys_updated_on>
+        <table>x_mpaii_aim_issue</table>
+    </sys_sg_data_item>
+</record_update>

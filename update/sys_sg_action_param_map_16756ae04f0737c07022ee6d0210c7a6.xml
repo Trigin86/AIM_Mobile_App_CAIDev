@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Create Issue">3f89bdf04f06b3407022ee6d0210c7ff</button>
+        <item_parameter display_value="Security Restriction">ba0522e04f0737c07022ee6d0210c77f</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>Eric.Eger@cai.io</sys_created_by>
+        <sys_created_on>2019-07-31 19:15:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>16756ae04f0737c07022ee6d0210c7a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ba0522e04f0737c07022ee6d0210c77f</sys_name>
+        <sys_package display_value="AIM Mobile App" source="x_maim2_aim_mobile">d10b70284f8633407022ee6d0210c75b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AIM Mobile App">d10b70284f8633407022ee6d0210c75b</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_16756ae04f0737c07022ee6d0210c7a6</sys_update_name>
+        <sys_updated_by>Eric.Eger@cai.io</sys_updated_by>
+        <sys_updated_on>2019-07-31 19:15:44</sys_updated_on>
+        <ui_parameter display_value="Security Restriction">8345e6e04f0737c07022ee6d0210c71b</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>

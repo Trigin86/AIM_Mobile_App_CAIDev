@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item display_value="Issues Related List DI">ae82f5f44fc2b3407022ee6d0210c780</data_item>
+        <dependency_fields>number,work_event,short_description,state,opened_at</dependency_fields>
+        <item_view_json>{"Type":"ViewGroup","Margin":{"Top":16,"Bottom":16},"Orientation":"Vertical","Alignment":"Stretch","Distribution":"Auto","Children":[{"Type":"ViewGroup","Orientation":"Horizontal","Alignment":"Stretch","Distribution":"Equal","Children":[{"Type":"ViewGroup","Margin":{"Right":12},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Children":[{"Type":"Text","Margin":{},"TextColor":"#293e40","TextAlignment":"Right","studio_template_field_id":"E1","MaxLines":1,"Font":{"Size":15,"Weight":"regular"},"CellId":"number"}]},{"Type":"ViewGroup","Margin":{},"Orientation":"Vertical","Alignment":"Right","Distribution":"Auto","Children":[{"Type":"Text","Margin":{},"TextColor":"#4F5966","TextAlignment":"Right","studio_template_field_id":"E2","MaxLines":1,"Font":{"Weight":"bold","Size":14},"CornerRadius":2,"CellId":"work_event"}]}]},{"Type":"Text","Margin":{"Top":9},"TextColor":"#293e40","TextAlignment":"Left","studio_template_field_id":"E3","MaxLines":2,"Font":{"Weight":"medium","Size":18},"CellId":"short_description"},{"Type":"ViewGroup","Orientation":"Vertical","Alignment":"Left","Distribution":"Equal","Children":[{"Type":"ViewGroup","Margin":{"Top":10},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"Text","Margin":{"Right":8},"TextColor":"#7d8a8c","TextAlignment":"Left","studio_template_is_label":true,"studio_template_field_id":"E4","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Text":"${state}"},{"Type":"Text","Margin":{},"TextColor":"#293e40","TextAlignment":"Left","studio_template_field_id":"E4","MaxLines":1,"Font":{"Weight":"regular","Size":13},"CellId":"state"}]},{"Type":"ViewGroup","Margin":{"Top":5},"Orientation":"Horizontal","Alignment":"Center","Distribution":"Auto","Children":[{"Type":"Text","Margin":{"Right":8},"TextColor":"#7d8a8c","TextAlignment":"Left","studio_template_is_label":true,"studio_template_field_id":"E5","MaxLines":1,"Font":{"Weight":"regular","Size":13},"Text":"${opened_at}"},{"Type":"Text","Margin":{},"TextColor":"#293e40","TextAlignment":"Left","studio_template_field_id":"E5","MaxLines":1,"Font":{"Weight":"regular","Size":13},"CellId":"opened_at"}]}]}],"studio_card_id":"dfbc0cd573812300d396c8168bf6a789"}</item_view_json>
+        <name>Issues Related To Program item view</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>Eric.Eger@cai.io</sys_created_by>
+        <sys_created_on>2019-06-12 17:10:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>31f2bdf44fc2b3407022ee6d0210c7b2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Issues Related To Program item view</sys_name>
+        <sys_package display_value="AIM Mobile App" source="x_maim2_aim_mobile">d10b70284f8633407022ee6d0210c75b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AIM Mobile App">d10b70284f8633407022ee6d0210c75b</sys_scope>
+        <sys_update_name>sys_sg_item_view_31f2bdf44fc2b3407022ee6d0210c7b2</sys_update_name>
+        <sys_updated_by>Eric.Eger@cai.io</sys_updated_by>
+        <sys_updated_on>2019-06-12 17:29:12</sys_updated_on>
+        <ui_styles/>
+    </sys_sg_item_view>
+</record_update>

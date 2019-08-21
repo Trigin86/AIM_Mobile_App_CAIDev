@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description>Action Item for allowing user to create an issue from a parent Program record</description>
+        <execution_script/>
+        <name>Create Issue AI</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>Eric.Eger@cai.io</sys_created_by>
+        <sys_created_on>2019-06-12 17:44:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d29af9744f06b3407022ee6d0210c74a</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Create Issue AI</sys_name>
+        <sys_package display_value="AIM Mobile App" source="x_maim2_aim_mobile">d10b70284f8633407022ee6d0210c75b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AIM Mobile App">d10b70284f8633407022ee6d0210c75b</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_d29af9744f06b3407022ee6d0210c74a</sys_update_name>
+        <sys_updated_by>Eric.Eger@cai.io</sys_updated_by>
+        <sys_updated_on>2019-08-01 14:28:02</sys_updated_on>
+        <table>x_mpaii_aim_issue</table>
+        <template>issue_due_date={{Due Date}}^impact={{Impact}}^issue_classification={{Issue Classification}}^issue_type={{Issue Type}}^opened={{Opened}}^planned_start_date={{Planned Completion Date}}^planned_completion_date={{Planned Completion Date}}^priority={{Priority}}^state={{State}}^short_description={{Short Description}}^choice_template={{Choice Template}}^work_event={{Work Event}}^security_restriction={{Security Restriction}}^assigned_to={{Assigned To}}^EQ</template>
+        <type>new</type>
+        <use_current_record_as_condition>false</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+</record_update>

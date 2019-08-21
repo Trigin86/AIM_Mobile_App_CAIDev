@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description>Action Item for allowing editing of current Issue</description>
+        <execution_script/>
+        <name>Edit Issue AI</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>Eric.Eger@cai.io</sys_created_by>
+        <sys_created_on>2019-06-12 17:06:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>18e139b44fc2b3407022ee6d0210c7a2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Edit Issue AI</sys_name>
+        <sys_package display_value="AIM Mobile App" source="x_maim2_aim_mobile">d10b70284f8633407022ee6d0210c75b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AIM Mobile App">d10b70284f8633407022ee6d0210c75b</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_18e139b44fc2b3407022ee6d0210c7a2</sys_update_name>
+        <sys_updated_by>Eric.Eger@cai.io</sys_updated_by>
+        <sys_updated_on>2019-08-01 18:16:15</sys_updated_on>
+        <table>x_mpaii_aim_issue</table>
+        <template>issue_due_date={{Due Date}}^impact={{Impact}}^issue_classification={{Issue Classification}}^issue_type={{Issue Type}}^opened={{Opened}}^planned_start_date={{Planned Start Date}}^planned_completion_date={{Planned Completion Date}}^priority={{Priority}}^state={{State}}^short_description={{Short Description}}^choice_template={{Choice Template}}^assigned_to={{Assigned To}}^security_restriction={{Security Restriction}}^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>false</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_action_param_map">
+    <sys_sg_action_param_map action="INSERT_OR_UPDATE">
+        <button display_value="Edit Program">88c04d244fc633407022ee6d0210c7d3</button>
+        <item_parameter display_value="Access Rule">aa0470344f4e73407022ee6d0210c77f</item_parameter>
+        <sys_class_name>sys_sg_action_param_map</sys_class_name>
+        <sys_created_by>Eric.Eger@cai.io</sys_created_by>
+        <sys_created_on>2019-06-12 16:44:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>137cedbc4f82b3407022ee6d0210c72b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>aa0470344f4e73407022ee6d0210c77f</sys_name>
+        <sys_package display_value="AIM Mobile App" source="x_maim2_aim_mobile">d10b70284f8633407022ee6d0210c75b</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="AIM Mobile App">d10b70284f8633407022ee6d0210c75b</sys_scope>
+        <sys_update_name>sys_sg_action_param_map_137cedbc4f82b3407022ee6d0210c72b</sys_update_name>
+        <sys_updated_by>Eric.Eger@cai.io</sys_updated_by>
+        <sys_updated_on>2019-06-12 16:44:44</sys_updated_on>
+        <ui_parameter display_value="Access Rule">ef4a51704f42b3407022ee6d0210c78f</ui_parameter>
+    </sys_sg_action_param_map>
+</record_update>
